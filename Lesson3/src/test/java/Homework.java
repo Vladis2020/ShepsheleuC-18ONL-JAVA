@@ -67,6 +67,7 @@ public class Homework {
         for (int i = 0; i < array.length; i++) {
             sumOfArray = sumOfArray + array[i];
         }
+
         return sumOfArray / array.length;
     }
 
