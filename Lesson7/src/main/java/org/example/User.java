@@ -38,8 +38,10 @@ public class User {
         this.age++;
     }
 
+
+    @Deprecated
     public void displayInfo() {
-        System.out.println("Name:" + firstName + "Second name:" + secondName + "Age: " + age + " Gender: " + gender);
+        System.out.println("Name: " + firstName + " Second name: " + secondName + " Age: " + age + " Gender: " + gender);
     }
 
 
